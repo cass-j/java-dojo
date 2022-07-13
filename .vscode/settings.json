@@ -1,8 +1,9 @@
 {
     "java.project.sourcePaths": [
+        "fundamentals/cypher_bot",
         "fundamentals/cafe_business_logic",
         "fundamentals/alfredBot",
-        "fundamentals/cypher_bot"
+        "oop/bank_account"
     ],
     "java.dependency.syncWithFolderExplorer": true
 }

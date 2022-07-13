@@ -12,7 +12,7 @@ public class CodeCipher {
             wordArray[i] = uppercaString.charAt(i);
             // System.out.println(wordArray[i]);
         }
-        for (int i=0; i < uppercaString.length(); i++){ // 
+        for (int i=0; i < uppercaString.length(); i++){ //
             encodeArray.add(cipher.get(wordArray[i]));
             encodeString = encodeString.concat(String.valueOf(encodeArray.get(i)));
             // System.out.println(letter);
@@ -25,6 +25,8 @@ public class CodeCipher {
     //     char[] cipherKey = {'A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'};
     //     return "";
     // }
+
+
     public static void main(String[] args) {
         HashMap<Character, Character> cipher = new HashMap<>();
         cipher.put('A', 'M');
