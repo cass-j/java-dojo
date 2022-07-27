@@ -1,9 +1,10 @@
 {
     "java.project.sourcePaths": [
+        "oop/bank_account",
         "fundamentals/cypher_bot",
         "fundamentals/cafe_business_logic",
         "fundamentals/alfredBot",
-        "oop/bank_account"
+        "oop/orders_items"
     ],
     "java.dependency.syncWithFolderExplorer": true
 }
